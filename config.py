@@ -19,7 +19,7 @@ ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(5628615681)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001811438803")) 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "mdisklinkonline") # For Force Subscription
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "cw_backup") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
 LINK_BYPASS = "False"
